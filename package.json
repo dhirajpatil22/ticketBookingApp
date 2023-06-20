@@ -1,0 +1,23 @@
+{
+  "name": "ticket_booking_system",
+  "version": "1.0.0",
+  "description": "Ticket App",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "Dhiraj Patil",
+  "license": "ISC",
+  "dependencies": {
+    "crypto-js": "^4.1.1",
+    "cryptojs": "^2.5.3",
+    "dotenv": "^16.1.4",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.2.4",
+    "nodejs": "^0.0.0",
+    "nodemon": "^2.0.22",
+    "uuid": "^9.0.0"
+  }
+}
